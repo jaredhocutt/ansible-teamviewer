@@ -1,0 +1,7 @@
+---
+
+- name: Install TeamViewer
+  dnf:
+    name: https://download.teamviewer.com/download/teamviewer.i686.rpm
+    state: present
+  become: yes
